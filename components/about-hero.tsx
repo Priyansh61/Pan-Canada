@@ -8,7 +8,7 @@ export function AboutHero() {
         <div className="max-w-3xl mb-16">
           <div className="w-12 h-1 bg-blue-600 mb-8" />
           <h1 className="text-4xl font-normal leading-tight mb-6">
-            We Are The World's Leading International Company.
+            We Are The World&apos;s Leading International Company.
           </h1>
           <p className="text-gray-600">
             In the fields of building construction, food production, textile manufacture, and transportation, a variety of services are offered by our organization. We work hard to offer the highest quality goods and services and have a staff of seasoned individuals that are experts in these fields.

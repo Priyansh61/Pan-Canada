@@ -61,7 +61,7 @@ export function Industries() {
             <div className="order-2 md:order-1 space-y-4">
               <h3 className="text-2xl font-semibold">Automobiles Industry</h3>
               <p className="text-gray-600">
-                Our engineering and manufacturing teams connect on a regular basis. Ideas are being investigated. It is feasible to forecast performance. Delivery and optimization of solutions. Our predictive engineering team reacts promptly and precisely to inquiries concerning a product's durability, manufacturing ease, and real-world performance.
+                Our engineering and manufacturing teams connect on a regular basis. Ideas are being investigated. It is feasible to forecast performance. Delivery and optimization of solutions. Our predictive engineering team reacts promptly and precisely to inquiries concerning a product&apos;s durability, manufacturing ease, and real-world performance.
               </p>
               <Link
                 href="/services"
@@ -108,7 +108,7 @@ export function Industries() {
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold">Hotel Industry</h3>
               <p className="text-gray-600">
-                We own, run, and manage four major hotel brands in five Canadian provinces. With us as a partner, you'll discover a dedication to both personal and professional development via genuine, passionate hospitality that gives your employees and visitors a genuine home away from home experience.
+                We own, run, and manage four major hotel brands in five Canadian provinces. With us as a partner, you&apos;ll discover a dedication to both personal and professional development via genuine, passionate hospitality that gives your employees and visitors a genuine home away from home experience.
               </p>
               <Link
                 href="/services"

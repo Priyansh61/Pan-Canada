@@ -16,7 +16,7 @@ export function Hero() {
           href="/about-us"
           className="inline-flex px-8 py-3 rounded-full bg-primary text-white hover:bg-primary/90 transition-colors"
         >
-          Let's Get Started
+          Let&apos;s Get Started
         </Link>
       </div>
       <div className="mt-16">

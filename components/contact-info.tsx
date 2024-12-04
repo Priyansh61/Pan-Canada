@@ -8,7 +8,7 @@ export function ContactInfo() {
             If You Have Any Query, Please Contact Us
           </h1>
           <p className="text-gray-600">
-            To expand the mentoring movement, we are actively trying to collaborate with organizations everywhere. By working together, we can expand the sector's capacity and help every young person realize their full potential.
+            To expand the mentoring movement, we are actively trying to collaborate with organizations everywhere. By working together, we can expand the sector&apos;s capacity and help every young person realize their full potential.
           </p>
         </div>
 
