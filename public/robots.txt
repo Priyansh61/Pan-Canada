@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pancanada.com
+
+# Sitemaps
+Sitemap: https://pancanada.com/sitemap.xml
