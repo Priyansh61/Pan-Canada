@@ -20,27 +20,31 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Company Links */}
           <div>
             <h3 className="text-sm font-semibold uppercase mb-4">COMPANY</h3>
             <ul className="space-y-3">
-              {['Home', 'About Us', 'Services', 'Teams', 'Career', 'Contact'].map((item) => (
-                <li key={item}>
-                  <Link href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-gray-300 hover:text-white">
-                    {item}
+              {[
+                { label: 'Home', href: '/' },
+                { label: 'About Us', href: '/about-us' },
+                { label: 'Services', href: '/services' },
+                { label: 'Teams', href: '/teams' },
+                { label: 'Contact', href: '/contact' },
+              ].map((item) => (
+                <li key={item.label}>
+                  <Link href={item.href} className="text-gray-300 hover:text-white">
+                    {item.label}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Important Links */}
           <div>
             <h3 className="text-sm font-semibold uppercase mb-4">IMPORTANT LINKS</h3>
             <ul className="space-y-3">
               {['Construction', 'Hotel', 'Textile', 'Automobiles', 'Farming'].map((item) => (
                 <li key={item}>
-                  <Link href={`/industries/${item.toLowerCase()}`} className="text-gray-300 hover:text-white">
+                  <Link href={`/services`} className="text-gray-300 hover:text-white">
                     {item}
                   </Link>
                 </li>
@@ -73,12 +77,12 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 text-sm text-gray-400 flex flex-col md:flex-row justify-between items-center">
-          <p>Copyright © 2024 Pan Canada Group | All Rights Reserved</p>
+          <p>Copyright © 2024 Pan Canada Group | Powered by <Link target="_blank" className="text-blue-500" href="https://github.com/Priyansh61">Priyansh61</Link></p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="/privacy-policy" className="hover:text-white">
+            <Link href="/contact" className="hover:text-white">
               Privacy Policy
             </Link>
-            <Link href="/terms-and-conditions" className="hover:text-white">
+            <Link href="/contact" className="hover:text-white">
               Terms and Conditions
             </Link>
           </div>

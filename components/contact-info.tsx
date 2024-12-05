@@ -16,18 +16,16 @@ export function ContactInfo() {
           <div>
             <h2 className="font-semibold mb-4">Business inquiries / Contact</h2>
             <a href="mailto:info@pancanadagroup.ca" className="text-[#0088CC] hover:text-[#0077B3] block">
-              info@pancanadagroup.ca
+            +96597381477
             </a>
             <a href="mailto:hr@pancanadagroup.ca" className="text-[#0088CC] hover:text-[#0077B3] block">
-              hr@pancanadagroup.ca
+              ]info@pancanadagroup.ca
             </a>
           </div>
           <div>
             <h2 className="font-semibold mb-4">Address</h2>
             <p className="text-gray-600">
-              345 Nantucket Blvd.<br />
-              Scarborough, ON M1P 2P2<br />
-              Canada
+            Yonge St, North York, ON M2N 5P6, Canada
             </p>
           </div>
           <div>
