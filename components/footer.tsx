@@ -69,7 +69,7 @@ export function Footer() {
               </p>
               <p>
                 <strong className="text-white">Phone:</strong><br />
-                +1.514.228.5339
+                +1 (437) 432‑7091
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 text-sm text-gray-400 flex flex-col md:flex-row justify-between items-center">
-          <p>Copyright © 2024 Pan Canada Group | Powered by <Link target="_blank" className="text-blue-500" href="https://github.com/Priyansh61">Priyansh61</Link></p>
+          <p>Copyright © 2024 Pan Canada Group</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <Link href="/contact" className="hover:text-white">
               Privacy Policy

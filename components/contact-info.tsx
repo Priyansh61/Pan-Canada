@@ -16,10 +16,7 @@ export function ContactInfo() {
           <div>
             <h2 className="font-semibold mb-4">Business inquiries / Contact</h2>
             <a href="mailto:info@pancanadagroup.ca" className="text-[#0088CC] hover:text-[#0077B3] block">
-            +96597381477
-            </a>
-            <a href="mailto:hr@pancanadagroup.ca" className="text-[#0088CC] hover:text-[#0077B3] block">
-              ]info@pancanadagroup.ca
+            +1 (437) 432‑7091
             </a>
           </div>
           <div>
@@ -28,10 +25,7 @@ export function ContactInfo() {
             Yonge St, North York, ON M2N 5P6, Canada
             </p>
           </div>
-          <div>
-            <h2 className="font-semibold mb-4">Contact</h2>
-            <p className="text-gray-600">+1 5142 285 339</p>
-          </div>
+
         </div>
       </div>
     </section>
